@@ -27,11 +27,11 @@ function encriptarFrase() {
     sugerencia.style.display = "none";
 
     let fraseEncriptada = textInput.value.
-                                          replaceAll("e", "enter").
-                                          replaceAll("i", "imes").
-                                          replaceAll("a", "ai").
-                                          replaceAll("o", "ober").
-                                          replaceAll("u", "ufat");
+         replaceAll("ai", "a").
+         replaceAll("enter", "e").
+         replaceAll("imes", "i").
+         replaceAll("ober", "o").
+         replaceAll("ufat", "u");
 
     textInputEncriptada.value = fraseEncriptada
 
@@ -58,11 +58,12 @@ btnCopy.addEventListener('click', copy);
 // Función inversa, para desencriptar
 function desencriptarFrase() {
   let fraseDesencriptada = textInput.value.
-                                        replaceAll("ufat", "u").
-                                        replaceAll("ober", "o").
-                                        replaceAll("ai", "a").
-                                        replaceAll("imes", "i").
-                                        replaceAll("enter", "e");
+        replaceAll("ai", "a").
+        replaceAll("enter", "e").
+        replaceAll("imes", "i").
+        replaceAll("ober", "o").
+        replaceAll("ufat", "u");
+        
   textInputEncriptada.value = fraseDesencriptada;
 
   mensaje = false;
