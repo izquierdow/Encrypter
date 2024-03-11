@@ -8,11 +8,11 @@ En este primer desafío trabajé en una aplicación que encripta textos, con la 
 Las _"llaves"_ de encriptación que utilizaremos son las siguientes:
 
 ```
-La letra "e" es convertida para "enter"
-La letra "i" es convertida para "imes"
-La letra "a" es convertida para "ai"
-La letra "o" es convertida para "ober"
-La letra "u" es convertida para "ufat"
+La letra "a" = "ai"
+La letra "e" = "enter"
+La letra "i" = "imes"
+La letra "o" = "ober"
+La letra "u" = "ufat"
 ```
 
 ---
@@ -48,25 +48,12 @@ inserción del texto que será encriptado o desencriptado, y el usuario debe pod
 Tenemos un periodo de tiempo de cuatro semanas para desarrollar el proyecto y vamos a trabajar con el sistema ágil de desarrollo, utilizando el Trello de la siguiente forma:
 
 1. La columna **Listos para iniciar** presenta las tarjetas con elementos que aún no fueron desarrollados.
-1. En la columna **En Desarrollo** estarán los elementos que estés desarrollando en el momento. Al iniciar una tarea, podrás mover la tarjeta que contiene dicha tarea para esta columna.
-1. En la columna **Pausado** estarán los elementos que comenzaste a desarrollar, pero necesitaste parar por algún motivo.
-1. Por fin, en la columna **Concluido** estarán los elementos ya concluidos.
+2. En la columna **En Desarrollo** estarán los elementos que estés desarrollando en el momento. Al iniciar una tarea, podrás mover la tarjeta que contiene dicha tarea para esta columna.
+3. En la columna **Pausado** estarán los elementos que comenzaste a desarrollar, pero necesitaste parar por algún motivo.
+4. Por fin, en la columna **Concluido** estarán los elementos ya concluidos.
 
----
 
-## 📚 Recursos y materiales:
-- [Link del Trello](https://trello.com/b/WTdfcewC/encriptador-de-texto-alura-challenges-one)
-- [Modelo en Figma](https://www.figma.com/file/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica?node-id=0%3A1)
-- [Alura+: ¿Cómo un desarrollador Front End utiliza Figma?](https://www.youtube.com/watch?v=UuAX5azcvDQ)
 
----
+## 🚀 Link del Proyecto:
+Pueden visitar el sitio haciendo click en el siguiente [link](https://izquierdow.github.io/Encrypter/).
 
-## 🚀 Proyecto finalizado:
-Pueden visitar el sitio haciendo click en el siguiente [link](https://facugl.github.io/Encriptador-JS/).
-
-![Preview](https://i.ibb.co/47KJYGB/127-0-0-1-5500-index-html-4.png)
-
----
-
-## 🏅 Insignia por finalizar el proyecto:
-![Badge](https://i.ibb.co/JjnSpnN/Badge-Sharer-Alura-Challenge-Oracle-ONE-2000x2000-V3.png)
