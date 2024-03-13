@@ -12,9 +12,9 @@ La página web cuenta con campos para que el usuario pueda ingresar el texto que
 ## 🔒 Diccionario para la encriptacion
 | 🔑 Llave | ✏️ Reemplazo |
 |-----------|-----------|
+| a | ai |
 | e | enter |
 | i | imes |
-| a | ai |
 | o | ober |
 | u | ufat |
 
@@ -23,11 +23,11 @@ La página web cuenta con campos para que el usuario pueda ingresar el texto que
 ## 🔓 Diccionario para la desencriptacion
 | 🔑 Llave | ✏️ Reemplazo |
 |-----------|-----------|
+| ai    | a |
 | enter | e |
-| imes | i |
-| ai | a |
-| ober | o |
-| ufat | u |
+| imes  | i |
+| ober  | o |
+| ufat  | u |
 
 # 📑 Requisitos
 
