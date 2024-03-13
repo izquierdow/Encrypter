@@ -1,59 +1,47 @@
 # 🔐 Encriptador de texto 🔐
 
-## Descripción:
-Este proyecto forma parte de los **Challenges ONE**, que son una forma de implementar el _Challenge Based Learning_, es decir, aprendizaje basado en desafíos que _Apple_ ayudó a crear.
+# 🚀 Challenge Encriptador | Oracle + Alura
 
-En este primer desafío trabajé en una aplicación que encripta textos, con la cual se podrá intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
+# 📝 Descripción
 
-Las _"llaves"_ de encriptación que utilizaremos son las siguientes:
+Este proyecto es una aplicación que utiliza HTML, CSS, JavaScript para encriptar y desencriptar texto. La encriptación se realiza mediante la sustitución de ciertas letras por otras según un conjunto específico de reglas. La aplicación solo acepta letras minúsculas y no se permiten acentos ni caracteres especiales.
 
-```
-La letra "a" = "ai"
-La letra "e" = "enter"
-La letra "i" = "imes"
-La letra "o" = "ober"
-La letra "u" = "ufat"
-```
+La página web cuenta con campos para que el usuario pueda ingresar el texto que desea encriptar o desencriptar y seleccionar la opción correspondiente. El resultado de la operación se muestra en la pantalla y existe la opción de copiar el texto encriptado o desencriptado al portapapeles mediante un botón de "copiar".
+
+# 📒 Diccionarios
+## 🔒 Diccionario para la encriptacion
+| 🔑 Llave | ✏️ Reemplazo |
+|-----------|-----------|
+| e | enter |
+| i | imes |
+| a | ai |
+| o | ober |
+| u | ufat |
 
 ---
 
-## 🔎 Requisitos:
-- Debe funcionar solo con letras minúsculas.
-- No deben ser utilizados letras con acentos ni caracteres especiales.
-- Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original. Por ejemplo:
+## 🔓 Diccionario para la desencriptacion
+| 🔑 Llave | ✏️ Reemplazo |
+|-----------|-----------|
+| enter | e |
+| imes | i |
+| ai | a |
+| ober | o |
+| ufat | u |
 
-  `"gato" => "gaitober"`
+# 📑 Requisitos
 
-  `"gaitober" => "gato"`
-
-- La página debe tener campos para
+- ✅ Debe funcionar solo con letras minúsculas
+- ✅ No deben ser utilizados letras con acentos ni caracteres especiales
+- ✅ Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original. (Ejemplos: "gato" => "gaitober" | "gaitober" => "gato")
+- ✅ La página debe tener campos para
 inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
-- El resultado debe ser mostrado en la pantalla.
+- ✅ El resultado debe ser mostrado en la pantalla.
+- ✅ Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 
----
+# Autor
 
-## ⚡ Elementos principales de la página:
-- Título de su sitio web.
-- Campo para el texto que va a ser encriptado/desencriptado.
-- Un botón para encriptar.
-- Un botón para desencriptar.
-- Área para mostrar el texto encriptado/desencriptado.
+[![Linkedin](https://img.shields.io/badge/Linkedin-0072b1?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/william-izquierdo/)
 
----
-
-## ✨ Extras:
-- Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
-- Un rodapie con los datos de la persona que desarrolló el sitio web.
-
-Tenemos un periodo de tiempo de cuatro semanas para desarrollar el proyecto y vamos a trabajar con el sistema ágil de desarrollo, utilizando el Trello de la siguiente forma:
-
-1. La columna **Listos para iniciar** presenta las tarjetas con elementos que aún no fueron desarrollados.
-2. En la columna **En Desarrollo** estarán los elementos que estés desarrollando en el momento. Al iniciar una tarea, podrás mover la tarjeta que contiene dicha tarea para esta columna.
-3. En la columna **Pausado** estarán los elementos que comenzaste a desarrollar, pero necesitaste parar por algún motivo.
-4. Por fin, en la columna **Concluido** estarán los elementos ya concluidos.
-
-
-
-## 🚀 Link del Proyecto:
-Pueden visitar el sitio haciendo click en el siguiente [link](https://izquierdow.github.io/Encrypter/).
+[![GitHub](https://img.shields.io/badge/izquierdow-black?logo=github&logoColor=FFFFFF&style=for-the-badge)](https://github.com/izquierdow)
 
