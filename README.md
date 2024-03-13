@@ -47,4 +47,9 @@ inserción del texto que será encriptado o desencriptado, y el usuario debe pod
 
 # Enlace Github Pages:
 
-(https://izquierdow.github.io/Encrypter/)
+https://izquierdow.github.io/Encrypter/
+
+# Insignia Alura Latam:
+
+https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F10224%2F1671210503Prancheta_3.png?utm_campaign=alura_latam_-_challenge_email_projeto_1_esp&utm_medium=email&utm_source=RD+Station
+

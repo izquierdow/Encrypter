@@ -1,5 +1,5 @@
 const textInput = document.querySelector('#frase');
-const textInputEncriptada = document.querySelector('#frase-encriptada');
+let textInputEncriptada = document.querySelector('#frase-encriptada');
 
 const sugerencia = document.querySelector('.form__sugerencia');
 const desencriptarMsg = document.querySelector('.desencriptar__mensaje');
@@ -26,12 +26,12 @@ function encriptarFrase() {
   } else {
     sugerencia.style.display = "none";
 
-    let fraseEncriptada = textInput.value.
-         replaceAll("ai", "a").
-         replaceAll("enter", "e").
-         replaceAll("imes", "i").
-         replaceAll("ober", "o").
-         replaceAll("ufat", "u");
+    let fraseEncriptada = textInput.value
+         .replaceAll("e", "enter")
+         .replaceAll("i", "imes")
+         .replaceAll("a", "ai")
+         .replaceAll("o", "ober")
+         .replaceAll("u", "ufat");
 
     textInputEncriptada.value = fraseEncriptada
 
@@ -57,12 +57,12 @@ btnCopy.addEventListener('click', copy);
 
 // Función inversa, para desencriptar
 function desencriptarFrase() {
-  let fraseDesencriptada = textInput.value.
-        replaceAll("ai", "a").
-        replaceAll("enter", "e").
-        replaceAll("imes", "i").
-        replaceAll("ober", "o").
-        replaceAll("ufat", "u");
+  let fraseDesencriptada = textInput.value
+        .replaceAll("enter", "e")
+        .replaceAll("imes", "i")
+        .replaceAll("ai", "a")
+        .replaceAll("ober", "o")
+        .replaceAll("ufat", "u");
         
   textInputEncriptada.value = fraseDesencriptada;
 
